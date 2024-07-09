@@ -1,0 +1,1080 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+body {
+    background: linear-gradient(135deg,rgb(247, 246, 244) 0%,rgb(235, 239, 238) 50%,rgb(239, 242, 243) 100%);
+    /**background: linear-gradient(135deg,rgb(250, 246, 255), rgb(255, 250, 255)100%);**/
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.navigation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    margin: 0 20px;
+}
+.navigation-a {
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.Mainmenu {
+    display: none;
+}
+.mainMenu {
+    display: none;
+    list-style: none;
+}
+.mainMenu li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.openMenu i {
+    display: none;
+}
+.courses-gallery {
+    margin-top: 100px;
+    margin-left: -20px;
+}
+.courses-ul::-webkit-scrollbar {
+    display: none;
+}
+.courses-ul::-webkit-scrollbar-thumb {
+    display: none;
+}
+.courses-img {
+    width: 140px;
+    height: 140px;
+}
+.courses-ul {
+    display: flex;
+    scroll-snap-type: x;
+    overflow-x: scroll; 
+}
+.courses-li {
+    margin-left: 40px;
+}
+.registration-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.registration-text {
+    max-width: 480px;
+    display: flex;
+    justify-content: center;
+}
+.registration-span {
+    text-decoration: underline;
+    color: #ff611d;
+}
+.registration-span2 {
+    text-decoration: underline;
+    color: #00dc9a;
+}
+.registration-h2 {
+    font-size: 43px;
+}
+.reg-information {
+    max-width: 530px;
+    text-align: center;
+    margin-top: 15px;
+}
+.reg-inf-p {
+    color: #6f6f6f;
+    font-size: 18px;
+    font-weight: 400;
+}
+.registartion-btn-div {
+    margin-top: 30px;
+}
+.reg-btn {
+    background-color: #007bfc;
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.card-svg,
+.card-svg2,
+.card-svg3,
+.card-svg4,
+.card-svg5,
+.card-svg6 {
+    width: 50px;
+    height: 50px;
+    background-color: #ff611d;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.card-svg2 {
+    background-color: #00dc9a;
+}
+.card-svg3 {
+    background-color: #FC7BDF;
+}
+.card-svg4 {
+    background-color: #4ca0fa;
+}
+.card-svg5 {
+    background-color: rgb(252, 182, 1);
+}
+.card-svg6 {
+    background-color: rgb(128, 30, 253);
+}
+.card {
+    width: 370px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.card-gallery-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-title {
+    margin-left: 20px;
+    font-size: 19px;
+}
+.card-h2 {
+    font-size: 19px;
+    color: #434343;
+    margin-top: 12px;
+}
+.card-text {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+.card-gallery {
+    max-width: 1200px;
+    margin-top: 100px;
+}
+.about-novator {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.novator-video {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 15px;
+    width: 85vh;
+    height: 50vh;
+}
+.about-info {
+    max-width: 550px;
+    margin-left: 30px;
+}
+.about-info-text {
+    margin-top: 20px;
+}
+.about-info-h2 {
+    font-size: 38px;
+}
+.about-info-p {
+    font-size: 17px;
+    color: #444444;
+    font-weight: 600;
+}
+.p2 {
+    margin-top: 30px;
+}
+.about-info-span {
+    text-decoration: underline;
+    color: #811eff;
+}
+.novatori-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+.novatori-works-svg {
+    width: 105px;
+    height: 105px;
+    background-color: #f6f2fd;
+    border-radius: 100%;
+}
+.novatori-works-svg2 {
+    width: 105px;
+    height: 105px;
+    background-color: #ffe9d9;
+    border-radius: 100%;
+}
+.novatori-works-svg3 {
+    width: 105px;
+    height: 105px;
+    background-color: rgb(219, 255, 248);
+    border-radius: 100%;
+}
+.novatori-works-ul {
+    display: flex;
+}
+.novatori-works-h2 {
+    font-size: 42px;
+}
+.novatori-works-span {
+    text-decoration: underline;
+    color: #007bfc;
+}
+.novatori-works-text {
+    margin-top: 20px;
+}
+.svg-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.novatori-works-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.novatori-works-h4 {
+    font-size: 20px;
+}
+.novatori-works-info-p {
+    text-align: center;
+    margin-top: 10px;
+    color: #3a3a3a;
+}
+.novatori-works-ul {
+    display: flex;
+    justify-content: center;
+}
+.novatori-works-li {
+    width: 370px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 30px;
+} 
+rect {
+    width: 104;
+    height: 104;
+    fill: rgb(83, 72, 199);
+    fill-opacity: 0.07;
+}
+.choose-profession-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+.choose-profession {
+    max-width: 550px;
+    position: sticky;
+    top: 320px;
+    padding: 10px;
+}
+.choose-profession-img {
+    height: 800px;
+    scroll-snap-type: y;
+    overflow-y: scroll; 
+    
+}
+.choose-profession-img::-webkit-scrollbar {
+    display: none;
+}
+.choose-profession-img::-webkit-scrollbar-thumb {
+    display: none;
+}
+.scrollablle-container {
+    height: 700px;
+    overflow-y: auto;
+}
+.choose-profession-h2 {
+    color: #2f2f3c;
+    font-family: firago,Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+.choose-profession-span {
+    text-decoration: underline;
+    color: #00dc9a;
+}
+.choose-profession-p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #2f2f3c;
+    font-weight: 600;
+}
+.about-info {
+    margin-top: 30px;
+}
+.mentors {
+    width: 76%;
+    height: 92%;
+}
+.about-info-text-div {
+    display: flex;
+    align-items: center;
+}
+.about-info-text2 {
+    margin-top: 20px;
+}
+.about-info-p,
+.about-info-p2 {
+    color: #6e6d6d;
+}
+.about-info-span {
+    color: #ff611d;
+}
+.reg-btn2 {
+    background-color: #007bfc;
+    border-radius: 12px;
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.novatori-free-course {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.free-course-text {
+    max-width: 530px;
+    width: 90%;
+}
+.free-course-text-h2 {
+    font-size: 40px;
+}
+.free-course-text-span {
+    text-decoration: underline;
+    color: #00dc9a;
+}
+.free-course-text-p {
+    color: #6e6e6e;
+    margin-top: 20px;
+}
+.html-video {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50%;
+    border-radius: 15px;
+    width: 85vh;
+    height: 50vh;
+    margin-left: 20px;
+}
+.mentors-and-courses-container {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mentors-and-courses-gallery {
+    max-width: 1150px;
+    width: 100%;
+}
+.mentors-and-courses-gallery {
+    display: flex;
+    justify-content: center;
+}
+.mentors-and-courses-ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mentors-and-courses-li {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mentor-title-h3 {
+    padding: 8px 0;
+    font-weight: bold;
+}
+.mentor-describe-p {
+    color: #151c5099;
+    font-family: georgian,Sans-serif;
+    font-weight: 600;
+}
+.mentor-name-h4 {
+    padding: 10px 0;
+}
+.mentor-name-span {
+    color: #1a73e7;
+}
+.course-price {
+    display: flex;
+}
+.price {
+    padding: 4px;
+    background-color: rgba(59,191,57,.08);
+    border: 1px solid #3bbf39;
+    color: #3bbf39;
+    border-radius: 10px;
+}
+.subject-div {
+    padding: 4px;
+    background-color: rgba(255,97,29,.08);
+    border: 1px solid #ff611d;
+    color: #ff611d;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.price-p,
+.subject {
+    font-weight: bold;
+    font-size: 16px;
+}
+.mentors-and-courses-li2 {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.mentors-and-courses-ul {
+    margin-top: 30px;
+}
+.mentors-and-courses-container-span {
+    text-decoration: underline;
+    color: #811eff;
+}
+.mentors-and-courses-container-h1 {
+    font-size: 40px;
+}
+.pupil-coments-li {
+    width: 100%;
+    max-width: 520px;
+    height: 250px;
+    background-color: #fff;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+.pupil-profile {
+    display: flex;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.pupil-text {
+    width: 450px;
+    margin: 0 150px 0 0;
+}
+.text {
+    padding: 5px 15px;
+    color: #585858;
+    font-weight: 600;
+}
+.pupil-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+.pupil-name {
+    width: 200px;
+    color: #151c50;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.pupil-profession {
+    color: #ff6b00;
+    font-family: noto sans, georgian,Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pupil-coments-container {
+    margin-top: 100px;
+}
+.mentors-and-courses-container-h1 {
+    margin-bottom: 30px;
+}
+.pupil-title-span {
+    color: #00dc9a;
+    text-decoration: underline;
+}
+.mentors-and-courses-container-h1-2 {
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.question-container {
+    max-width: 1216px;
+    width: 98%;
+}
+.question-main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    margin-left: 15px;
+}
+.question-container-p-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1210px;
+    width: 100%;
+}
+.question-container-ul {
+    max-width: 1210px;
+    width: 100%;
+}
+.question-container-title {
+    color: #2f2f3c;
+    font-family: firago,Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.question-container-div {
+    display: flex;
+    justify-content: center;
+}
+.question-container-li {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.question-container-li:hover {
+    color: #007bfc;
+}
+.question-container-title-span {
+    color: #007bfc;
+    text-decoration: underline;
+}
+.question-container-p {
+    color: #151c50;
+    font-size: 17px;
+    font-weight: 600;
+}
+.question-container-i:hover {
+    color: #007bfc;
+    cursor: pointer;
+}
+.location-logo-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 221, 155);
+    border-radius: 15px;
+}
+.location-logo-container2 {
+    background-color: rgb(255, 97, 29);
+}
+.location-logo-container3 {
+    background-color: rgb(252, 182, 1);
+}
+.novatori-adress-logo {
+    display: flex;
+    margin-top: 30px;
+}
+.misamarti {
+    color: #70798b;
+    font-size: 18px;
+}
+.adress {
+    color: #151c50;
+    font-family: noto sans georgian,Sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.adress-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60px;
+    margin-left: 20px;
+}
+.novatori-contact-container {
+    display: flex;
+}
+.registration-main-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 150px;
+}
+.registration-title-container {
+    margin-bottom: 30px;
+}
+.registration-title-container-h1 {
+    font-size: 40px;
+    word-spacing: 10px;
+}
+.about-info-span2 {
+    color: #00dc9a;
+    text-decoration: underline;
+}
+.registration-container {
+    max-width: 1210px;
+}
+.novatori-adress {
+    padding: 0px 54px;
+    background-color: #f3f3f3;
+    border-radius: 15px;
+}
+.registration-sub-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+}
+.registration-form {
+    max-width: 780px;
+    width: 100%;
+    padding: 0 24px 0 24px;
+}
+.text2 {
+    width: 330px;
+    padding: 16px 8px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 18px;
+}
+.text2:focus {
+    border: 1px solid #007bfc;
+}
+.form {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-around;
+}
+.radio-container {
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    align-items: center;
+    margin-top: 20px;
+}
+.radio {
+    width: 15px;
+    height: 15px;
+}
+label {
+    margin-left: 10px;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+.radio-div {
+    display: flex;
+    margin-left: 10px;
+}
+.registration-name-p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #5a5a5a;
+}
+.registration-name2 {
+    margin-top: 20px;
+}
+.radio-container-title-div {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.radio-title {
+    font-size: 18px;
+    color: #5a5a5a;
+}
+.textarea {
+    width: 98%;
+    height: 130px;
+    background-color: #f3f3f3;
+    outline: none;
+    border: #f3f3f3;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.textarea::placeholder {
+    font-size: 18px;
+}
+.textarea:focus {
+    border: 1px solid #007bfc;
+}
+.textarea-container {
+    max-height: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.textarea-title {
+    font-size: 18px;
+    color: #5a5a5a;
+    margin-top: 40px;
+}
+.registartion-btn {
+    width: 98%;
+    height: 50px;
+    color: #fff;
+    background-color: #007bfc;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.registration-button-div {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.registration-name-surname2 {
+    margin-left: 15px;
+}
+footer {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.footer-main-container {
+    max-width: 1100px;
+    width: 100%;
+    margin-top: 40px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.novatori-news-text-div {
+    margin-top: 10px;
+}
+.novatori-news-p {
+    color: #151c50;
+    font-weight: 600;
+}
+.novatori-news-input-div {
+    margin-top: 15px;
+    background-color: #f3f3f3;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+.news-input {
+    border: none;
+    outline: none;
+    background-color: #f1f1f1;
+    padding: 8px;
+    width: 200px;
+}
+.news-input::placeholder {
+    font-size: 16px;
+}
+.footer-ul-main-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.news-btn {
+    border: none;
+    padding: 10px;
+    background-color: #007bfc;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.footer-list-h4 {
+    font-size: 16px;
+    color: #151c50;
+    font-weight: 600;
+}
+
+.footer-list-li {
+    margin-bottom: 20px;
+}
+.footer-li-h5 {
+    color: #7a7a7a;
+    font-weight: 100;
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px){
+    .navigation-wrapper {
+        display: none;
+    }
+    .fa-solid, .fa-bars {
+        display: block;
+        width: 25px;
+        height: 25px;
+        font-size: 28px;
+        cursor: pointer;
+    }
+    nav .mainMenu {
+        height: 100vh;
+        flex-direction: column;
+        background-color: #fff;
+        transition: 2s;
+    }
+    nav .openMenu {
+        position: relative;
+        z-index: 999;
+        display: block;
+    }
+    .openMenu i {
+        color: #000;
+        display: block;
+    }
+    .Mainmenu-li {
+        padding: 5px;
+        cursor: pointer;
+    }
+    .Mainmenu-a {
+        font-weight: 600;
+    }
+    .Mainmenu-li:hover {
+        background-color: #1a73e7;
+        color: #fff;
+    }
+    .openMenu {
+        margin-top: 25px;
+        margin-right: 40px;
+    }
+    .Mainmenu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        transition-duration: .5s;
+        right: -100%;
+        top: 0;
+        width: 100%;
+        height: 30%;
+        background-color: #fff;
+        border-radius: 20px;
+    }
+    .courses-gallery {
+        margin-top: 20px;
+    }
+    .registration-started {
+        margin-left: 20px;
+    }
+    .works-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .choose-profession-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .scrollablle-container {
+        height: 100%;
+        margin-bottom: 70px;
+        margin-left: 15px;
+    }
+    .profession-img {
+        width: 100%;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .news-input {
+        width: 100%;
+    }
+    .novatori-news {
+        width: 82%;
+        margin-bottom: 50px;
+    }
+    .novatori-news-main-div {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1180px) {
+    .card-gallery-ul {
+        justify-content: space-around;
+    }
+    .about-novator {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video-container {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .novator-video {
+        width: 100%;
+    }
+    .about-info {
+        max-width: 960px;
+        width: 80%;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .novatori-works-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .novatori-works-li {
+        width: 92%;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 15px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .novatori-works-title,
+    .novatori-works-text {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .novatori-works-info-p {
+        margin-bottom: 20px;
+    }  
+    .novatori-free-course {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .free-course-text {
+        width: 90%;
+        max-width: 1040px;
+    }
+    .free-course-video-div {
+        width: 96%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .free-course-video {
+        width: 95%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .html-video {
+        width: 100%;
+        margin-left: 0;
+    }
+    .mentors-and-courses-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mentors-and-courses-ul {
+        width: 90%;
+        height: 100%;
+    }
+    .mentors-and-courses-li,
+    .mentors-and-courses-li2,
+    .image-mentor {
+        width: 100%;
+    }
+    .novatori-contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+}   
+@media screen and (max-width: 795px) {
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+    .card-text {
+        margin-bottom: 15px;
+    }
+    .mentors {
+        width: 100%;
+        height: 100%;
+    }
+    .choose-profession-img {
+        height: 500px;
+    }
+    .mentors-and-courses-container-h1-2 {
+        margin-left: 20px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column;
+    }
+    .registration-name-surname2 {
+        margin-left: 0px;
+    }
+    .text2 {
+        width: 100%;
+    }
+    .radio-div {
+        margin-left: 0px;
+    }
+    .novatori-adress {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo2 {
+        margin-right: 20px;
+    }
+    .logo3 {
+        margin-bottom: 20px;
+    }
+    .novatori-adress {
+        padding: 0px 0px
+    }
+    .registration-main-container {
+        margin: 10px;
+        margin-top: 100px;
+    }
+    .textarea-container,
+    .registration-button-div {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 520px) {
+    .pupil-coments-li {
+        width: 520px;
+    }
+    .footer-ul-main-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+}
